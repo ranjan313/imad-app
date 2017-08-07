@@ -17,10 +17,6 @@ app.get('/ui/article-one.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one.css'));
 });
 
-app.get('/Screen.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Screen.png'));
-});
-
 
 app.get('/article-two', function(req, res){
     res.send('article two requested and will be served here');
