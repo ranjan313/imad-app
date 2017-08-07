@@ -22,7 +22,7 @@ p{
 	font-size:16px;  
 }
 body{
-	background-image:url(screen.png);
+	background-image:url(ui/screen.png);
 	background-repeat:repeat-y;
 	background-attachment:fixed;
 	background-color:red;
